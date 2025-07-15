@@ -1,0 +1,25 @@
+{
+  "name": "brainbang",
+  "displayName": "brainbang-syntax",
+  "description": "Syntax highlighting for the brainbang language https://github.com/jkelley129/BrainBang",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "brainbang",
+      "aliases": ["Brainbang", "brainbang"],
+      "extensions": [".bb"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "brainbang",
+      "scopeName": "source.brainbang",
+      "path": "./syntaxes/brainbang.tmLanguage.json"
+    }]
+  }
+}
