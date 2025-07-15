@@ -2,9 +2,14 @@
   "name": "brainbang",
   "displayName": "brainbang-syntax",
   "description": "Syntax highlighting for the brainbang language https://github.com/jkelley129/BrainBang",
+  "publisher": "JoshKelley",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.102.0"
+  },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/jkelley129/Brainbang-Syntax-Highlighting.git"
   },
   "categories": [
     "Programming Languages"
